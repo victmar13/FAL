@@ -1,0 +1,31 @@
+﻿  Source.cpp
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E24\E24\Source.cpp(14,20): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7156,18): error C3892: '_First': no se puede asignar a una variable constante
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7274): message : Vea la referencia a la creación de una instancia de la función plantilla "_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)" que se está compilando
+          with
+          [
+              _BidIt=const int *,
+              _RanIt=const int *,
+              _Pr=std::less<void>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7304): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Sort_unchecked<const int*,_Fn>(_RanIt,_RanIt,__int64,_Pr)" que se está compilando
+          with
+          [
+              _Fn=std::less<void>,
+              _RanIt=const int *,
+              _Pr=std::less<void>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7312): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)" que se está compilando
+          with
+          [
+              _RanIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int>>>,
+              _Pr=std::less<void>
+          ]
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E24\E24\Source.cpp(15): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::sort<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(const _RanIt,const _RanIt)" que se está compilando
+          with
+          [
+              _Ty=int,
+              _RanIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int>>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7159,22): error C3892: '_Hole': no se puede asignar a una variable constante
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7162,18): error C3892: '_Hole': no se puede asignar a una variable constante

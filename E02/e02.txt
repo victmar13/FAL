@@ -1,0 +1,73 @@
+// Problema: Ultima vez que..
+
+// IMPORTANTE.
+// Nombre del alumno: VIctoria Martin Rojo
+// Usuario del juez: A43
+
+
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+// función que resuelve el problema
+// comentario sobre el coste, O(f(N))
+int resolver(vector<string> const& v) {
+    int res = v.size() - 1;
+    for (int i = res - 1; i >= 0; i--) {
+        if (v[i] == v[res]) {
+            return i;
+        }
+    }
+    return res;
+
+}
+
+// Resuelve un caso de prueba, leyendo de la entrada la
+// configuración, y escribiendo la respuesta
+bool resuelveCaso() {
+    int num;
+    cin >> num;
+    if (num == 0) return false;
+    // Lectura del resto de datos, 
+    string nacion;
+    cin >> nacion;
+    vector<string> paises(num, "");
+    for (int i = 0; i < num; i++) {
+        string pais;
+        cin >> pais;
+        paises[i];
+    }
+    paises.push_back(nacion); //en posicion v[num] tenemos la nacion
+    // llamar a la funcion que resuelve el problema
+    int cont = resolver(paises);
+    int naci = paises.size() - 1;
+    if (cont < naci) {
+        cout << (naci) - cont << "\n";
+    }
+    else { cout << "NUNCA\n"; }
+    // Escribir el resultao
+
+
+
+    return true;
+}
+
+int main() {
+    // Para la entrada por fichero.
+/*#ifndef DOMJUDGE
+    ifstream in("datos.txt");
+    auto cinbuf = cin.rdbuf(in.rdbuf()); //save old buf and redirect cin to casos.txt
+#endif*/
+
+    while (resuelveCaso());
+
+    // Para restablecer entrada. 
+/*#ifndef DOMJUDGE // para dejar todo como estaba al principio
+    cin.rdbuf(cinbuf);
+    system("PAUSE");
+#endif*/
+    return 0;
+}

@@ -1,0 +1,24 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(190,48): warning C4267: 'inicializando': conversión de 'size_t' a '_Ty1'; posible pérdida de datos
+          with
+          [
+              _Ty1=int
+          ]
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E53\E53\Source.cpp(32): message : Vea la referencia a la creación de una instancia de la función plantilla "std::pair<int,int>::pair<unsigned __int64,unsigned __int64,0>(_Other1 &&,_Other2 &&) noexcept" que se está compilando
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=unsigned __int64
+          ]
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E53\E53\Source.cpp(32): message : Vea la referencia a la creación de una instancia de la función plantilla "std::pair<int,int>::pair<unsigned __int64,unsigned __int64,0>(_Other1 &&,_Other2 &&) noexcept" que se está compilando
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(190,48): warning C4267: 'inicializando': conversión de 'size_t' a '_Ty2'; posible pérdida de datos
+          with
+          [
+              _Ty2=int
+          ]
+  E53.vcxproj -> C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E53\E53\x64\Debug\E53.exe

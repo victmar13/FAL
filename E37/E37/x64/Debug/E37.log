@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E37\E37\Source.cpp(38,13): error C3861: 'transformandoFinal': no se encontró el identificador
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E37\E37\Source.cpp(41,6): error C2374: 'suma': nueva definición; inicialización múltiple
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E37\E37\Source.cpp(38): message : vea la declaración de 'suma'
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E37\E37\Source.cpp(41,13): error C3861: 'sumaDigitosFinal': no se encontró el identificador

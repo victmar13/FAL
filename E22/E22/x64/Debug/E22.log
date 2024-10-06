@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E22\E22\Source.cpp(13,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E22\E22\Source.cpp(45,22): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  E22.vcxproj -> C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E22\E22\x64\Debug\E22.exe

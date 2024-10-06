@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E12\E12\Source.cpp(14,20): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  E12.vcxproj -> C:\Users\Alberto\source\repos\VIC\FAL_Victoria\E12\E12\x64\Debug\E12.exe

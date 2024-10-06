@@ -1,0 +1,77 @@
+ Nombre del alumno Victoria Martin Rojo
+ Usuario del Juez A43
+
+
+#include iostream
+#include iomanip
+#include fstream
+#includevector
+
+using namespace std;
+
+ función que resuelve el problema
+bool resolver(vectorfloat const& v, float max) {
+    bool apta = true;
+    float _max = max;
+    int tam = v.size();
+    int ini = v[0];
+    int suma = 0;
+    int i = 1;
+    while (apta && i  tam) {
+        if (v[i] = v[i - 1]) {
+            ini = v[i];
+            suma = 0;
+        }
+        else { suma = v[i] - ini; }
+
+        if (suma  _max) { apta = false; }
+        i++;
+    }
+    for (int i = 1; i  tam; i++) {
+        
+        if (v[i] = v[i-1]) {
+            ini = v[i];
+            suma = 0;
+        }
+        else { suma = v[i] - ini; }
+
+        if (suma  _max) { apta = false; }
+    }
+    return apta;
+}
+
+ Resuelve un caso de prueba, leyendo de la entrada la
+ configuración, y escribiendo la respuesta
+bool resuelveCaso() {
+     leer los datos de la entrada
+    float max, tramos;
+    cin  max  tramos;
+
+    if (!cin)
+        return false;
+
+    vectorfloat v(tramos);
+
+    for (int i = 0; i  tramos; i++) {
+        cin  v[i];
+    }
+
+    bool sol = resolver(v, max);
+
+    if (sol) { cout  APTA n; }
+    else { cout  NO APTA n; }
+     escribir sol
+
+
+    return true;
+
+}
+
+int main() {
+     Para la entrada por fichero.
+
+    while (resuelveCaso())
+        ;
+
+    return 0;
+}
